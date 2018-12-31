@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sam/dev/cpp-learning/learn-cpp-book/ch2/chapter2-quiz/io.cpp
+iostream
+-
+
+/Users/sam/dev/cpp-learning/learn-cpp-book/ch2/chapter2-quiz/io.h
+
+/Users/sam/dev/cpp-learning/learn-cpp-book/ch2/chapter2-quiz/main.cpp
+iostream
+-
+io.h
+/Users/sam/dev/cpp-learning/learn-cpp-book/ch2/chapter2-quiz/io.h
+
